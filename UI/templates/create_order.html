@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/main.css">
+    <link rel="stylesheet" href="../static/font-awesome/css/font-awesome.min.css">
+
+    <title>SENDIT</title>
+</head>
+<body>
+    <div class="header"><i class="fa fa-paper-plane"></i>SENDIT Courier Services  |  Create Parcel Order
+        <div class="links">
+                <a href="../../index.html">Logout</a>
+                <a href="../templates/signup.html">Sign up</a>
+                <a href="../templates/contact.html">Feedback</a>
+                <a href="../templates/view_order.html">Single Order</a>
+                <a href="../templates/user.html">Client</a>
+                <a href="../templates/create_order.html">Create Order</a>
+                <a href="../templates/cancel_order.html">Cancel Order</a>
+                <a href="../templates/update_user.html">Update User</a>
+        </div>
+        </div>
+        <div class="container">
+        <div class="header"></div>
+        <div class="content">
+                  
+            <form>
+                <div class="form-head">
+                    Create a new parcel order delivery
+                </div>
+                <div class="logo"></div>
+                
+                <div class="input">
+                    <div class="row">
+                        <div class="col-25"><label for="name">Client Name</label></div>
+                        <div class="col-75"><input type="text" id="client-name" onfocus="this.value=''" placeholder="what is your name?"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25"><label for="parcel">Parcel</label></div>
+                        <div class="col-75"><input type="text" id="parcel" onfocus="this.value=''" placeholder="what is your parcel ?"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25"><label for="weight">Parcel-Weight (kgs)</label></div>
+                        <div class="col-75"><select id="parcel-weight" onfocus="this.value=''"><option value="1">less than 20</option><option value="2">Between 20 to 100</option><option value="3">Above 100</option></select></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25"><label for="describe">Parcel description</label></div>
+                        <div class="col-75"><input type="text" id="parcel" onfocus="this.value=''" placeholder="parcel details"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25"><label for="price">Price (Ugshs)</label></div>
+                        <div class="col-75"><input type="text" id="price" onfocus="this.value=''" placeholder="parcel price"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25"><label for="parcel">Pickup</label></div>
+                        <div class="col-75"><input type="text" id="parcel" onfocus="this.value=''" placeholder="where to pickup parcel?"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25"><label for="parcel" >Destination</label></div>
+                        <div class="col-75"><input type="text" id="parcel" onfocus="this.value=''" placeholder="where to deliver parcel ?"></div>
+                    </div>
+                    <div>
+                        <input type="submit" value="Send Order" id="send-order">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="footer"><i class="fa fa-paper-plane"></i>@kigandaivan-sendit-courier services version 1.0 &copy;copyright 2018</div>
+    </div>
+    <!-- <script src="../static/main.js"></script> -->
+</body>
+</html>

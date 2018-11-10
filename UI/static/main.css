@@ -79,7 +79,7 @@ a{text-decoration: none;}
 /* checkboxes , select*/
 input[type=checkbox],select{display: inline;margin-left: 50px;}
 /* fix footer at bottom */
-/* .footer{position: fixed;} */
+.footer{position: fixed;bottom: 0px;left: 0px;width: 100%;}
 @media all and (max-width:800px){textarea{width: 300px;}.content .table{margin-left: -150px;padding: 0px 0px;font-size: 12px;}.container .content{margin-left: 150px;}.container,.header{width: 100%;align-content: center;}.content .users,.content .orders,.content .pickups,.content .deliveries,.content .parcel,.content .payment{width: 150px;height: 100px;}}
 @media all and (max-width:480px){.container,.header{width: 100%;align-content: center;}.content{display:grid;grid-template:repeat(2,1fr);grid-gap: 5px;}.content .users,.content .orders,.content .pickups,.content .deliveries,.content .parcel,.content .payment{width: 150px;height: 100px;}}
 @media all and (min-width:800px){.container .content{margin-left: 500px;}.content .table{margin-left: -300px;}}

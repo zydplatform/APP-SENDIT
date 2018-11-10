@@ -9,11 +9,11 @@ login.addEventListener('submit', function(e){
     if (e.target.name.value == 'admin' && e.target.password.value == 'admin'){
         e.target.name.value = '';
         e.target.name.value = '';
-        window.location.href = '../SENDIT/UI/templates/admin.html'
+        window.location.href = '../APP-SENDIT/UI/templates/admin.html'
     } else if (e.target.name.value == 'client' && e.target.password.value == 'client'){
         e.target.name.value = '';
         e.target.name.value = '';
-        window.location.href = '../SENDIT/UI/templates/user.html';
+        window.location.href = '../APP-SENDIT/UI/templates/user.html';
     }
 
     if (e.target.name.value == '' || e.target.password.value == ''){

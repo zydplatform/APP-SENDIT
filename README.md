@@ -15,7 +15,7 @@ Click here to get started :
 
 Prerequisites :
 
-Installations:
+Installations :
 Python 3.5+ 
 
 Flask : Web development framework :pip install flask

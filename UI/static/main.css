@@ -15,6 +15,7 @@ body,html{
     padding: 0px;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    background: whitesmoke;
 }
 .container{    background: whitesmoke;}
 
@@ -59,7 +60,7 @@ form .input span{color: maroon;font-size: 12px;}
 /* dashboard -css */
 .wrapper{display: grid;grid-template-rows: 100px auto 100px;padding: 5px;}
 .header, .footer{background:rgba(26, 1, 54, 0.9);color: white;width: 100%;padding: 10px 10px; }
-.links a{margin-top: -10px; float: right; color: white; padding: 0px 10px;}
+.links a{margin-top: -15px; float: right; color: white; padding: 0px 10px;}
 .links a:hover{color: rgba(26, 1, 54, 0.9);background: white;}
 
 .header button{float: right;padding: 10px 10px;margin-top: 20px;background: white;border: none;}

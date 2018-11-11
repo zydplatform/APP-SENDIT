@@ -8,6 +8,7 @@ Get a browser of your choice installed on your local machine .
 
 Here you can use Google chrome , Safari and Mozilla Firefox.
 
+Have internet to access the web page.
 
 To use this application you will need to first access it via the link below:
 Click here to get started :  https://zydplatform.github.io/SENDIT/

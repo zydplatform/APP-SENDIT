@@ -1,0 +1,8 @@
+__init__.pyc
+__pycache__
+.pytest_cache
+manage.pyc
+.vscode
+views.pyc
+run.pyc
+env/

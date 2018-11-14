@@ -1,5 +1,10 @@
 # SENDIT
 
+[![Build Status](https://travis-ci.org/zydplatform/APP-SENDIT.svg?branch=develop)](https://travis-ci.org/zydplatform/APP-SENDIT)
+
+[![Coverage Status](https://coveralls.io/repos/github/zydplatform/APP-SENDIT/badge.svg?branch=develop)](https://coveralls.io/github/zydplatform/APP-SENDIT?branch=develop)
+
+
 Courier services
 
 Getting Started:

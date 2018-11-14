@@ -4,6 +4,10 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/zydplatform/APP-SENDIT/badge.svg?branch=develop)](https://coveralls.io/github/zydplatform/APP-SENDIT?branch=develop)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e674e6e892b7d94ffd51b4bd39ddc6e0d93d0b60
 Courier services
 
 Getting Started:

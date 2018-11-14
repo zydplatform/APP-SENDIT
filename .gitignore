@@ -6,3 +6,5 @@ manage.pyc
 views.pyc
 run.pyc
 env/
+data.txt
+models.pyc

@@ -1,8 +1,3 @@
-
-
-# checking for invalid inputs
-# isinstance checks if the return type of a variable is true or false
-
 def invalid_inputs(parcel_name, parcel_weight, parcel_description, parcel_price, pickup, destination, status):
     errors_found = {}
     if not isinstance('parcel_name', str):

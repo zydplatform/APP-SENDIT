@@ -1,5 +1,5 @@
-# configuration  for all application stages:
-# development,testing,staging,production
+''' configuration  for all application stages:
+ development,testing,staging,production'''
 
 
 class Config(object):
@@ -13,7 +13,6 @@ class DevelopmentConfig(Config):
 
 
 class TestingConfig(Config):
-    # for testing this we shall require a separate database
     TESTING = True
 
     DEBUG = True

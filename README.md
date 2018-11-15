@@ -1,6 +1,19 @@
-# SENDIT
+## SENDIT
+Sendit is an application that helps to pick and deliver different goods and items from one place to another.
 
-Courier services
+## MOTIVATION
+I have been inspired at what happens at Andela and the great impact of change to becoming a world class developer.
+## BUILD STATUS:
+Build status of continuous integration with travis,test coverage and code maintainability
+
+# THE PYTHON FRAMEWORK USED :
+  FLASK MICROFRAMEWORK 
+  
+ CODE STYLE :
+  PEP8 STYLE GUIDE
+  
+ FEATURES:
+ 
 
 Getting Started:
 
@@ -39,4 +52,4 @@ Pylint:This is a Python linting library that helps in producing code without
 errors so it notifies you of every error.
 
 
-Built by :Kiganda Ivan.
+ Built by :Kiganda Ivan.

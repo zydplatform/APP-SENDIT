@@ -1,0 +1,26 @@
+venv
+work.py
+oop.py
+oop1.py
+slide3.jpg
+<div class="row">
+                        <div class="col-25"><label for="parcel">Order-Status</label></div>
+                        <div class="col-75"><input type="checkbox" id="order-status" checked="checked">On the way</div>
+                        <div class="col-75"><input type="checkbox" id="order-status" ></div>
+                        <div class="col-75"><input type="checkbox" id="order-status" checked="checked">On the way</div>
+                    </div>
+                        
+                    rgba(2, 116, 26, 0.9)
+.row{width: 100%;max-width: 100%;min-width: 100%;padding:0px;margin: 0px; }
+.col-1{width: 8.3%;float: left;}
+.col-2{float:left ; width: 16.6%;}
+.col-3{float:left ; width: 24.9%;}
+.col-4{float:left ; width: 33.3%;}
+.col-5{float:left ; width: 41.5%;}
+.col-6{float:left ; width: 49.8%;}
+.col-7{float:left ; width: 58.1%;}
+.col-8{float:left ; width: 66.4%;}
+.col-9{float:left ; width: 74.7%;}
+.col-10{float:left ; width: 83%;}
+.col-11{float:left ; width: 91.3%;}
+.col-12{float:left ; width: 99.6%;}

@@ -62,10 +62,6 @@ tr:nth-child(even){background: #f3f3f3;}
 form .input span{
     color: maroon;font-size: 16px;
 }
-.container form .logo{
-    background: url("../images/download.jpeg") no-repeat;
-    ;height: 200px;align-self: center;border-radius: 5%;z-index: 2;
-}
 
 .wrapper{
     display: grid;grid-template-rows: 100px auto 100px;padding: 5px;

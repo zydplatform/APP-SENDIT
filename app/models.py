@@ -1,22 +1,21 @@
 from app import validate_apis
-from app.validate_apis import invalid_inputs,empty_field
 
+from uuid import uuid4
 users = []
 
 orders = []
 
 status = {
-    "init": 0,
-    "make_order": 1,
-    "in_transit": 2,
-    "canceled": 3,
-    "delivered": 4
+    1:"make_order",
+    2:"in_transit",
+    3:"canceled",
+    4:"delivered"
 }
 
 
 class User:
     def __init__(self, user_name, user_email, user_password, user_address, confirm_password):
-        self.user_id = len(users) + 1
+        self.user_id = uuid4().hex
         self.user_name = user_name
         self.user_email = user_email
         self.user_password = user_password
@@ -26,7 +25,7 @@ class User:
 
 class Order:
     def __init__(self, parcel_name, parcel_weight, parcel_description, parcel_price, pickup, destination, status):
-        self.parcel_id = len(orders) + 1
+        self.parcel_id = uuid4().hex
         self.parcel_name = parcel_name
         self.parcel_weight = parcel_weight
         self.parcel_description = parcel_description
@@ -58,4 +57,3 @@ class Order:
         for order in orders:
             if parcel_id == order['parcel_id']:
                 return order
-    

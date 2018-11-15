@@ -133,22 +133,9 @@ html,body,#map_canvas{width: 100%;
     .content .contact,.content .google_maps{
         width: 150px;height: 100px;
     }
-    .links{float: left;font-size: 18px;left: 0%;}
-}
-@media all and (max-width:480px){
-    .links{font-size: 10px;}
-    .container,.header{
-        width: 100%;align-content: center;
-    }
-    .content{
-        width: 150px;height: 100px;
-        display:grid;grid-template:repeat(2,1fr);grid-gap: 5px;
-    }
-    .content .google_maps,.content .contact,.content .users,.content .orders,.content .pickups,.content .deliveries,.content .parcel,.content .payment{
-        width: 150px;height: 100px;
-    }
-    
-    .content .table tr th{padding: 15px 20px;}
+    .links{float: left;font-size: 18px;left: 0%;margin-top: -5px;}
+    .content a{font-size: 10px;}
+    .content .table{margin-left: -370px;overflow-x: auto;}
 }
 @media all and (min-width:800px){
     .container .content{
@@ -159,4 +146,20 @@ html,body,#map_canvas{width: 100%;
         margin-left: -500px;
     }
     .content .table tr th{padding: 20px 28px;}
+}
+
+@media all and (max-width:480px){
+    .links{font-size: 5px;}
+    .container,.header{
+        width: 100%;align-content: center;
+    }
+    .content{
+        width: 150px;height: 100px;
+        display:grid;grid-template:repeat(1,1fr);grid-gap: 5px;
+    }
+    .content .google_maps,.content .contact,.content .users,.content .orders,.content .pickups,.content .deliveries,.content .parcel,.content .payment{
+        width: 150px;height: 100px;
+    }
+    .content .table{margin-left: -300px;}
+    .content .table tr th{padding: 15px 20px;}
 }

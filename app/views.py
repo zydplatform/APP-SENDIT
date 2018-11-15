@@ -1,14 +1,24 @@
-
 from flask import jsonify, request
 from app import app
-from app.models import Order, orders
+from app.models import Order,orders
 
+@app.errorhandler(404)
+def error404(error):
+    return jsonify({"error":" Page not found !"}),404
+
+@app.errorhandler(500)
+def error500(error):
+    return jsonify({"error":"Invalid request"}),500
+
+@app.errorhandler(405)
+def error405(error):
+    return jsonify({"error":"Method not allowed"}),405
 
 @app.route('/', methods=['POST', 'GET'])
 @app.route('/api/v1', methods=['POST', 'GET'])
 def index():
+    
     return jsonify({"message": "Welcome To Send It API."}), 200
-
 
 @app.route('/api/v1/parcels', methods=['POST', 'GET'])
 def create_and_get_orders():
@@ -23,7 +33,6 @@ def create_and_get_orders():
         pickup = data['pickup']
         destination = data['destination']
         status = data['status']
-
         order_class = Order(parcel_name, parcel_weight, parcel_description, parcel_price, pickup, destination, status)
         order = order_class.create_order()
         return jsonify({"message": "Order created", "order": order}), 201
@@ -34,7 +43,7 @@ def create_and_get_orders():
         return jsonify({"message": "All created orders", "Orders": orders}), 200
 
 
-@app.route('/api/v1/parcels/<int:parcel_id>', methods=['GET'])
+@app.route('/api/v1/parcels/<string:parcel_id>', methods=['GET'])
 def get_single_order(parcel_id):
     order_class = Order(
         parcel_name='',

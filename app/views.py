@@ -60,6 +60,7 @@ def get_single_order(parcel_id):
 
 @app.route('/api/v1/users/<int:user_id>/parcels', methods=['GET'])
 def get_orders_by_user(user_id):
+    
     return jsonify({"message": "get all orders of a specific user"}), 200
 
 

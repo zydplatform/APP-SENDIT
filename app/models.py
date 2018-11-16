@@ -14,13 +14,29 @@ status = {
 
 
 class User:
-    def __init__(self, user_name, user_email, user_password, user_address, confirm_password):
+    def __init__(self, user_name, user_email, user_password,confirm_password):
         self.user_id = uuid4().hex
         self.user_name = user_name
         self.user_email = user_email
         self.user_password = user_password
-        self.user_address = user_address
         self.confirm_password = confirm_password
+    
+    def create_user(self):
+        user = {
+                "user_id":self.user_id,
+                "user_name":self.user_name,
+                "user_email":self.user_email,
+                "user_password":self.user_password,
+                "confirm_password":self.confirm_password
+               }
+        users.append(user)
+        return user
+    def get_all_users(self):
+        return users
+    def get_single_user(self,user_id):
+        for user in users:
+            if user_id == user['user_id']:
+                return user
 
 
 class Order:
@@ -53,7 +69,7 @@ class Order:
     def get_all_orders(self):
         return orders
 
-    def get_single_orders(self, parcel_id):
+    def get_single_order(self, parcel_id):
         for order in orders:
             if parcel_id == order['parcel_id']:
                 return order

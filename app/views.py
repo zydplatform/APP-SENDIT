@@ -89,15 +89,9 @@ def get_single_order(parcel_id):
 
 @app.route('/api/v1/users/<string:user_id>/parcels', methods=['GET'])
 def get_orders_by_user(user_id):
-    for order in orders:
-        if order['user_id'] == user_id:
-            return jsonify(order), 200
+    return jsonify({"message": "get all orders of a specific user"}), 200
 
 
 @app.route('/api/v1/parcels/<string:parcel_id>/cancel', methods=['PUT'])
 def cancel_order(parcel_id):
-    data = request.get_json()
-    for order in orders:
-        if order['parcel_id'] == parcel_id:
-            order['status'] = data['status']
-            return jsonify(order),200
+            return jsonify({"message":"cancel order"}),200

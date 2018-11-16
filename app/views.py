@@ -2,15 +2,6 @@ from flask import jsonify, request
 from app import app
 from app.models import Order,orders,User,users
 
-@app.route('/api/v1/users/<int:user_id>/parcels', methods=['GET'])
-def get_orders_by_user(user_id):
-    
-    return jsonify({"message": "get all orders of a specific user"}), 200
-
-
-@app.route('/api/v1/parcels/<int:parcel_id>/cancel', methods=['PUT'])
-def cancel_order(parcel_id):
-    return jsonify({"message": "cancel order."}), 200
 @app.errorhandler(404)
 def error404(error):
     return jsonify({"error":" Page not found !"}),404
@@ -96,3 +87,22 @@ def get_single_order(parcel_id):
     return jsonify({"Order": order}), 200
 
 
+@app.route('/api/v1/users/<int:user_id>/parcels', methods=['GET'])
+def get_orders_by_user(user_id):
+    return jsonify({"message": "get all orders of a specific user"}), 200
+
+
+@app.route('/api/v1/parcels/<int:parcel_id>/cancel', methods=['PUT'])
+def cancel_order(parcel_id):
+        order_class = Order(
+        parcel_name='',
+        parcel_weight='',
+        parcel_description='',
+        parcel_price='',
+        pickup='',
+        destination='',
+        status='canceled'
+    )
+
+        order = order_class.cancel_order(parcel_id)
+        return jsonify({"Order":order,"message": "cancel order."}), 200

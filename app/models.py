@@ -1,5 +1,3 @@
-from app import validate_apis
-
 from uuid import uuid4
 users = []
 

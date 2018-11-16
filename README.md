@@ -1,4 +1,11 @@
 # SENDIT
+This is a web application that helps users to track,pick and deliver their parcels.
+
+# Build Status
+
+[![Build Status](https://travis-ci.org/zydplatform/APP-SENDIT.svg?branch=develop)](https://travis-ci.org/zydplatform/APP-SENDIT)
+
+[![Coverage Status](https://coveralls.io/repos/github/zydplatform/APP-SENDIT/badge.svg?branch=develop)](https://coveralls.io/github/zydplatform/APP-SENDIT?branch=develop)
 
 Courier services
 
@@ -8,7 +15,6 @@ Get a browser of your choice installed on your local machine .
 
 Here you can use Google chrome , Safari and Mozilla Firefox.
 
-Have internet to access the web page.
 
 To use this application you will need to first access it via the link below:
 Click here to get started :  https://zydplatform.github.io/APP-SENDIT/

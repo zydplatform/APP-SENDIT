@@ -10,7 +10,6 @@ This is a an application that helps people to track ,pick up and deliver their p
 
 [![Coverage Status](https://coveralls.io/repos/github/zydplatform/APP-SENDIT/badge.svg)](https://coveralls.io/github/zydplatform/APP-SENDIT)
 
-
 [![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
 
 

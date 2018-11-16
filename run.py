@@ -6,4 +6,4 @@ from app import config
 app_config = 'development'
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=5000)

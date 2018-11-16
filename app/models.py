@@ -73,3 +73,8 @@ class Order:
         for order in orders:
             if parcel_id == order['parcel_id']:
                 return order
+    def cancel_order(self,parcel_id):
+        if status != "delivered":
+            for order in orders:
+                if parcel_id == order[parcel_id]:
+                    return order

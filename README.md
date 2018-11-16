@@ -15,9 +15,9 @@ Courier services
 
 Getting Started:
 
-*Get a browser of your choice installed on your local machine .
-*Here is the github repository :https://github.com/zydplatform/APP-SENDIT
-*Here you can use Google chrome , Safari and Mozilla Firefox.
+*Get a browser of your choice installed on your local machine* .
+Here is the github repository :https://github.com/zydplatform/APP-SENDIT
+Here you can use Google chrome , Safari and Mozilla Firefox.
 
 # API ENDPOINTS FOR SENDIT APPLICATION
 

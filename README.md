@@ -1,6 +1,11 @@
 # SENDIT
 This is a an application that helps people to track ,pick up and deliver their parcels from one place to another. 
 
+# MOTIVATION
+
+Everday the world faces challenges and thus solutions are invented everyday and this is one of the solutions to help
+in our daily routine.
+
 **Build Status**
 
 [![Build Status](https://travis-ci.org/zydplatform/APP-SENDIT.svg?branch=develop)](https://travis-ci.org/zydplatform/APP-SENDIT) [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability) [![Coverage Status](https://coveralls.io/repos/github/zydplatform/APP-SENDIT/badge.svg?branch=develop)](https://coveralls.io/github/zydplatform/APP-SENDIT?branch=develop) [![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)

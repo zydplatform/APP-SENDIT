@@ -8,7 +8,6 @@ This is a an application that helps people to track ,pick up and deliver their p
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
-
 [![Coverage Status](https://coveralls.io/repos/github/zydplatform/APP-SENDIT/badge.svg)](https://coveralls.io/github/zydplatform/APP-SENDIT)
 
 

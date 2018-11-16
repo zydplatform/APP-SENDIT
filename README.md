@@ -25,7 +25,7 @@ Here you can use Google chrome , Safari and Mozilla Firefox.
 |      GET/parcels           |Fetch all  parcel delivery orders                 |
                            
 |     GET/parcels/<parcelId> |Fetch a specific parcel delivery order            |
-| :---                                             :---
+| ---                        |                    ---
 |     GET/<userId>/parcels   |Fetch all parcel delivery ordersby a specific user|
                            
 | PUT/parcels/parcelId/cancel|Cancel the specific parcel delivery Order         |

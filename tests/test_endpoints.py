@@ -73,4 +73,4 @@ class AppTest(TestCase):
     def test_cancel_order(self):
         res = self.client.put('/api/v1/parcels/1/cancel')
         self.assertEqual(res.status_code, 200)
-        self.assertIn(b"cancel order.", res.data)
+        self.assertIn(b"cancel order", res.data)

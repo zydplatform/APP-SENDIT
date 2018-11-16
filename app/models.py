@@ -42,6 +42,7 @@ class User:
 class Order:
     def __init__(self, parcel_name, parcel_weight, parcel_description, parcel_price, pickup, destination, status):
         self.parcel_id = uuid4().hex
+        self.user_id = uuid4().hex
         self.parcel_name = parcel_name
         self.parcel_weight = parcel_weight
         self.parcel_description = parcel_description
@@ -59,7 +60,8 @@ class Order:
             "parcel_price": self.parcel_price,
             "pickup": self.pickup,
             "destination": self.destination,
-            "status": self.status
+            "status": self.status,
+            "user_id":self.user_id
         }
 
         orders.append(order)
@@ -73,8 +75,5 @@ class Order:
         for order in orders:
             if parcel_id == order['parcel_id']:
                 return order
-    def cancel_order(self,parcel_id):
-        if status != "delivered":
-            for order in orders:
-                if parcel_id == order[parcel_id]:
-                    return order
+    
+

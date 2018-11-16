@@ -43,7 +43,7 @@ Python 3.5+
 
 *Flask : Web development framework :pip install flask*
 
-*Virtual environment pip install *
+Virtual environment pip install 
 
 *Reqiurements.txt : pip install requirements.txt*
 

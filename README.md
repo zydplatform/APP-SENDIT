@@ -36,16 +36,16 @@ Here you can use Google chrome , Safari and Mozilla Firefox.
 To use this application you will need to first access it via the link below:
 Click here to get started :  https://zydplatform.github.io/APP-SENDIT/
 
-*Prerequisites
+*Prerequisites*
 
-*Installations:
+*Installations:*
 Python 3.5+ 
 
-*Flask : Web development framework :pip install flask
+*Flask : Web development framework :pip install flask*
 
-*Virtual environment pip install 
+*Virtual environment pip install *
 
-*Reqiurements.txt : pip install requirements.txt
+*Reqiurements.txt : pip install requirements.txt*
 
 # Running Tests:
  Pytest :pip install pytest

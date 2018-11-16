@@ -87,12 +87,12 @@ def get_single_order(parcel_id):
     return jsonify({"Order": order}), 200
 
 
-@app.route('/api/v1/users/<int:user_id>/parcels', methods=['GET'])
+@app.route('/api/v1/users/<string:user_id>/parcels', methods=['GET'])
 def get_orders_by_user(user_id):
     return jsonify({"message": "get all orders of a specific user"}), 200
 
 
-@app.route('/api/v1/parcels/<int:parcel_id>/cancel', methods=['PUT'])
+@app.route('/api/v1/parcels/<string:parcel_id>/cancel', methods=['PUT'])
 def cancel_order(parcel_id):
         order_class = Order(
         parcel_name='',
